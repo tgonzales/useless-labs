@@ -1,6 +1,6 @@
 <!DOCTYPE html><!-- Last Published: Tue Jul 26 2022 07:38:59 GMT+0000 (Coordinated Universal Time) -->
 <html data-wf-domain="www.embacy.io" data-wf-page="62d7e9c7bcd8e61d44f21190" data-wf-site="5f477ffced94e27b96962949"
-  lang="en">
+  lang="pt-br">
 
 <head>
   <meta charset="utf-8" />
@@ -26,6 +26,7 @@
   <meta content="0ewy8bCuDTsWuQ8R5hQhWqGNJII2zgScuNrZpX9Q56s" name="google-site-verification" />
   <link href="https://assets.website-files.com/5f477ffced94e27b96962949/css/embacyio-dev.2ddff4d48.min.css"
     rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="./style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script
     type="text/javascript">WebFont.load({ google: { families: ["IBM Plex Sans:regular,500,600,700", "IBM Plex Mono:regular,500,600,700"] } });</script>
@@ -170,6 +171,7 @@
     </div>
     <div data-w-id="0647e210-c751-5a13-0523-18d0b888cd2f" class="close-form-bg"></div>
   </div>
+  <div class="centerUseless">
   <!--
   <nav class="navbar-new wf-section">
     <div class="navbar-cont w-container"><a href="index.html" id="w-node-a0b2e092-8641-8d35-eac8-2149ef9f90c3-ef9f90c1"
@@ -255,11 +257,12 @@
     </div>
   </nav>
   -->
-  <section class="section s1-home wf-section">
+  <section class="section s1-home wf-section containerUseless">
     <div class="content s1-home w-container">
-      <div class=" mob-marg-lr-0px">
-        <div class=" mt60px">
-          <h1 class="heading-84px">Useless Labs</h1>
+      <div class=" mob-marg-lr-0px headerCenter">
+        <div class=" mt60px header">
+          <h1 class="heading-84px logo">Useless Labs</h1>
+          <p class="uselessYear"></p>
         </div>
       </div>
 
@@ -978,7 +981,15 @@
         $('.popup-bg').fadeOut();
       });
     });
+
+    // Year head
+    const dateDay= new Date();
+    const dateYear = dateDay.getFullYear();
+    const tag = document.querySelector('.uselessYear')
+    tag.innerHTML = dateYear
+
   </script>
+  </div>
 </body>
 
 </html>

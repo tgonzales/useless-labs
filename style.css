@@ -1,0 +1,63 @@
+body{
+  font-family: Recoleta,sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.centerUseless{
+  width: 100%;
+  max-width: 1635px;
+  margin: 0 auto;
+}
+
+.containerUseless{
+  padding: 0 20px;
+  padding-top: 55px;
+  margin:0 auto;
+}
+
+.logo{
+  color:#000;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.headerCenter{
+  width: 100%;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.uselessYear{
+  position: relative;
+  font-family: Recoleta,sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color:#000;
+}
+
+.uselessYear:before{
+  content: '';
+  position: absolute;
+  left: -108px;
+  width:85px;
+  height: 3px;
+  background-color: #000;
+  bottom: 10px;
+}
+
+.s1-home{
+  max-width:100%;
+}
+
+@media (max-width:768px){
+  .uselessYear:before{
+    display: none;
+  }
+}
