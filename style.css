@@ -1,8 +1,11 @@
+
 body{
-  font-family: Recoleta,sans-serif;
+  font-family: 'Recoleta', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
+  max-width: 100%;
 }
 
 .centerUseless{
@@ -15,6 +18,8 @@ body{
   padding: 0 20px;
   padding-top: 55px;
   margin:0 auto;
+  width: 100%;
+  max-width: 100%;
 }
 
 .logo{
@@ -52,12 +57,77 @@ body{
   bottom: 10px;
 }
 
+.max820-920-w{
+  max-width: 730px !important;
+}
+
 .s1-home{
   max-width:100%;
 }
+.max820-920-w.mob-marg-lr-20px{
+  padding: 0;
+}
 
+.lottie-w{
+  height: 350px;
+}
+
+.titleUseless,
+.titleUseless>h1{
+  width: 100%;
+  max-width: 730px !important;
+  font-size: 80px;
+  font-weight: 400;
+}
+
+.sub-w.home{
+  margin-top: 0;
+}
+
+.subtitleUseless{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.twoText{
+  margin-top: 18px;
+  width: 100%;
+  max-width: 900px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 150%;
+  color:#000;
+}
+
+.twoUsellesCenter{
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* MOBILE */
 @media (max-width:768px){
+  .containerUseless{
+    width: 100%;
+    max-width: 100%;
+  }
+
   .uselessYear:before{
     display: none;
+  }
+  .lottie-w{
+    width: 100%;
+    max-width: 100%;
+  }
+  .max820-920-w.mob-marg-lr-20px{
+    margin: 0;
+    padding: 0;
   }
 }
