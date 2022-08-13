@@ -1,3 +1,10 @@
+*{
+  list-style: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 
 body{
   font-family: 'Recoleta', sans-serif;
@@ -110,6 +117,60 @@ body{
   justify-content: space-between;
   width: 100%;
   max-width: 100%;
+}
+
+.threeUselles{
+  margin-top: 183px;
+  margin-bottom: 100px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.threeTitleUselles>h2{
+  font-family: 'Recoleta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 109px;
+}
+
+.threeTitleUselles>p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 150%;
+}
+
+.photoUsers{
+  width: 100%;
+  max-width: 100%;
+  margin-top: 50px;
+}
+
+.listPhotosUsers{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10%;
+  padding: 0;
+}
+
+.listPhotosUsers>li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.listPhotosUsers>li>img{
+  width: 100%;
+  max-width: 150px;
+  margin-bottom: 9px;
+  margin-top: 50px;
 }
 
 /* MOBILE */
