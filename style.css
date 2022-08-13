@@ -1,8 +1,11 @@
-*{
+*,a,
+.section.s3-home{
   list-style: none;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
 
@@ -18,6 +21,7 @@ body{
 .centerUseless{
   width: 100%;
   max-width: 1635px;
+  padding: 5px;
   margin: 0 auto;
 }
 
@@ -68,6 +72,10 @@ body{
   max-width: 730px !important;
 }
 
+.section.s1-home{
+  padding: 0;
+}
+
 .s1-home{
   max-width:100%;
 }
@@ -82,7 +90,7 @@ body{
 .titleUseless,
 .titleUseless>h1{
   width: 100%;
-  max-width: 730px !important;
+  max-width: 730px;
   font-size: 80px;
   font-weight: 400;
 }
@@ -127,6 +135,7 @@ body{
   justify-content: center;
   align-items: center;
   padding: 0;
+  text-align: center;
 }
 
 .threeTitleUselles>h2{
@@ -145,7 +154,7 @@ body{
   line-height: 150%;
 }
 
-.photoUsers{
+.listPhotoUsers{
   width: 100%;
   max-width: 100%;
   margin-top: 50px;
@@ -173,22 +182,159 @@ body{
   margin-top: 50px;
 }
 
+.userUselles>span{
+  font-family: 'Recoleta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color:#000;
+}
+
+.fourUselles{
+  margin-bottom: 84px;
+}
+
+.userUselles>p{
+  font-family: 'Recoleta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 150%;
+  color:#000;
+}
+
+.fourCenterUselles{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 84px;
+}
+
+.fourTitleUselles>h2{
+  font-family: 'Recoleta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 109px;
+}
+
+.fourTitleUselles>p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 150%;
+}
+
+.fourProjectSingle{
+  margin-bottom: 100px;
+}
+
+.fourProjectUselles>img{
+  width: 100%;
+  max-width: 100%;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.fourProjectTitleUselles{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.fourProjectUselles>span{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color:#000;
+}
+
+.fourProjectTitleUselles>h3{
+  font-family: 'Recoleta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+  color:#000;
+}
+
+.fourProjectTitleUselles>p{
+  font-family: 'Recoleta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  color:#000;
+}
+
 /* MOBILE */
 @media (max-width:768px){
+
+  .section{
+    padding: 0;
+  }
   .containerUseless{
     width: 100%;
     max-width: 100%;
   }
 
   .uselessYear:before{
-    display: none;
+    left: auto;
+    bottom: -5px;
+    right: 0
   }
+
   .lottie-w{
     width: 100%;
     max-width: 100%;
   }
-  .max820-920-w.mob-marg-lr-20px{
+
+  .max820-920-w.mob-marg-lr-20px,
+  .section.cta{
     margin: 0;
     padding: 0;
+  }
+
+  .titleUseless{
+    max-width: 250px;
+  }
+
+  .titleUseless>h1{
+    font-size: 40px;
+    max-width: 250px;
+  }
+
+  .listPhotosUsers>li>img{
+    max-width: 130px;
+  }
+
+  .userUselles>p{
+    font-size: 21px;
+  }
+
+  .userUselles>span{
+    font-size: 16px;
+  }
+
+  .promo-p{
+    font-size: 44px;
+  }
+
+  .threeTitleUselles>h2{
+    font-size: 56px;
+    line-height: 50px;
+  }
+
+  .fourTitleUselles>h2{
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .fourTitleUselles>p{
+    font-size: 21px;
   }
 }
