@@ -1,0 +1,494 @@
+*,a,
+.section,
+.section.s3-home{
+  list-style: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+}
+.section{
+  padding: 10px;
+}
+
+body{
+  font-family: 'Recoleta', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  color:#000;
+}
+
+.centerUseless{
+  width: 100%;
+  max-width: 1635px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.containerUseless{
+  padding: 0 20px;
+  padding-top: 55px;
+  margin:0 auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+.logo{
+  color:#000;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.headerCenter{
+  width: 100%;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.uselessYear{
+  position: relative;
+  font-family: Recoleta,sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color:#000;
+}
+
+.uselessYear:before{
+  content: '';
+  position: absolute;
+  left: -108px;
+  width:85px;
+  height: 3px;
+  background-color: #000;
+  bottom: 10px;
+}
+
+.max820-920-w{
+  max-width: 730px !important;
+}
+
+.section.s1-home{
+  padding: 0;
+}
+
+.s1-home{
+  max-width:100%;
+}
+.max820-920-w.mob-marg-lr-20px{
+  padding: 0;
+}
+
+.lottie-w{
+  height: 350px;
+}
+
+.titleUseless,
+.titleUseless>h1{
+  width: 100%;
+  max-width: 730px;
+  font-size: 80px;
+  font-weight: 400;
+}
+
+.sub-w.home{
+  margin-top: 0;
+}
+
+.subtitleUseless{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.twoText{
+  margin-top: 18px;
+  width: 100%;
+  max-width: 900px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 150%;
+  color:#000;
+}
+
+.twoUsellesCenter{
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+}
+
+.threeUselles{
+  margin-top: 183px;
+  margin-bottom: 100px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  text-align: center;
+}
+
+.threeTitleUselles>h2{
+  font-family: 'Recoleta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 109px;
+}
+
+.threeTitleUselles>p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 150%;
+}
+
+.listPhotoUsers{
+  width: 100%;
+  max-width: 100%;
+  margin-top: 50px;
+}
+
+.listPhotosUsers{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10%;
+  padding: 0;
+}
+
+.listPhotosUsers>li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.listPhotosUsers>li>img{
+  width: 100%;
+  max-width: 150px;
+  margin-bottom: 9px;
+  margin-top: 50px;
+}
+
+.userUselles>span{
+  font-family: 'Recoleta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color:#000;
+}
+
+.userUselles>p{
+  font-family: 'Recoleta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 150%;
+  color:#000;
+}
+
+.fourCenterUselles{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 84px;
+}
+
+.fourTitleUselles>h2{
+  font-family: 'Recoleta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 109px;
+}
+
+.fourTitleUselles>p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 150%;
+}
+
+.fourProjectSingle{
+  margin-bottom: 100px;
+}
+
+.fourProjectUselles>img{
+  width: 100%;
+  max-width: 100%;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.fourProjectTitleUselles{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.fourProjectUselles>span{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color:#000;
+}
+
+.fourProjectTitleUselles>h3{
+  font-family: 'Recoleta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+  color:#000;
+}
+
+.fourProjectTitleUselles>p{
+  font-family: 'Recoleta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  color:#000;
+}
+
+.fiveUselles{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 31px;
+}
+
+.fiveCardUsellesList{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  width: 100%;  
+  max-width: 440px;
+  height: 372px;
+  margin-bottom: 160px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+}
+
+.fiveCardUselles{
+  width: 100%;
+}
+
+.fiveCardUselles>img{
+  width: 100%;
+  max-width: 100%;
+  height: 372px;
+  border-radius: 25px;
+}
+
+.fiveCardUselles>a>p{
+  font-family: 'Recoleta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  color:#000;
+  margin-top: 28px;
+}
+
+.fiveCardUselles>a>span{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color:#000;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 248px;
+  margin-bottom: 216px;
+}
+
+.footerImg>img{
+  width: 100%;
+  max-width: 388px;
+  height: 343px;
+}
+
+.footerData>p{
+  font-family: 'Recoleta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 109px;
+  color:#000;
+}
+
+.footerData>span{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color:#000;
+}
+/* MOBILE */
+
+@media(max-width:970px){
+  .fiveCardUsellesList{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media (max-width:768px){
+
+  .containerUseless{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .uselessYear:before{
+    left: auto;
+    bottom: -5px;
+    right: 0
+  }
+
+  .lottie-w{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .max820-920-w.mob-marg-lr-20px,
+  .section.cta{
+    margin: 0;
+    padding: 0;
+  }
+
+  .titleUseless{
+    max-width: 250px;
+  }
+
+  .titleUseless>h1{
+    font-size: 40px;
+    max-width: 250px;
+  }
+
+  .listPhotosUsers>li>img{
+    max-width: 130px;
+  }
+
+  .userUselles>p{
+    font-size: 21px;
+  }
+
+  .userUselles>span{
+    font-size: 16px;
+  }
+
+  .promo-p{
+    font-size: 44px;
+  }
+
+  .threeTitleUselles>h2{
+    font-size: 56px;
+    line-height: 50px;
+  }
+
+  .fourTitleUselles>h2{
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .fourTitleUselles>p{
+    font-size: 21px;
+  }
+
+  .fourProjectTitleUselles{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .poni-spn{
+    display: none;
+  }
+
+  footer{
+    flex-direction: column;
+  }
+
+  .footerImg>img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .footerData>p{
+    font-size: 41px;
+  }
+
+  .footerData>span{
+    line-height: 1;
+  }
+
+  .fiveCardUselles>a>p{
+    margin-bottom: 5px;
+  }
+
+  .fiveCardUselles>a>span{
+    font-size: 21px;
+    line-height: 1;
+  }
+}
+
+@media(max-width:425px){
+  .fourProjectTitleUselles>h3{
+    font-size: 34px;
+    line-height:1;
+  }
+
+  .fourProjectTitleUselles>p{
+    font-size: 21px;
+  }
+
+  footer{
+    margin: 100px 0 ;
+  }
+}
+
+@media(max-width:375px){
+  .fiveCardUselles>a>p{
+    font-size: 28px;
+    line-height: 1;
+  }
+}
+
+@media(max-width:320px){
+  .threeTitleUselles>h2{
+    font-size: 50px;
+  }
+
+  .fiveCardUselles>a>span{
+    font-size: 21px;
+  }
+}
