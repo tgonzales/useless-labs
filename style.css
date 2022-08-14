@@ -275,6 +275,45 @@ body{
   color:#000;
 }
 
+.fiveUselles{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 41px;
+}
+
+.fiveCardUsellesList{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 41px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+}
+
+.fiveCardUselles>img{
+  width: 100%;
+  max-width: 456px;
+  height: 372px;
+  border-radius: 25px;
+}
+
+.fiveCardUselles>a>p{
+  font-family: 'Recoleta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  color:#000;
+  margin-top: 28px;
+}
+
+.fiveCardUselles>a>span{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+
 /* MOBILE */
 @media (max-width:768px){
 
