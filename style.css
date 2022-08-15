@@ -12,9 +12,6 @@
 img{
   width: 100%;
 }
-.section{
-  padding: 10px;
-}
 
 body{
   font-family: 'Recoleta', sans-serif;
@@ -169,10 +166,10 @@ body{
 }
 
 .listPhotosUsers{
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   flex-wrap: wrap;
-  gap: 10%;
+  /* gap: 10%; */
   padding: 0;
 }
 
@@ -354,6 +351,17 @@ footer{
   color:#000;
 }
 /* MOBILE */
+@media(max-width:1399px){
+  .listPhotosUsers{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media(max-width:999px){
+  .listPhotosUsers{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 
 @media(max-width:970px){
   .fiveCardUsellesList{
@@ -459,6 +467,10 @@ footer{
     font-size: 21px;
     line-height: 1;
   }
+
+  .listPhotosUsers{
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media(max-width:425px){
@@ -491,4 +503,9 @@ footer{
   .fiveCardUselles>a>span{
     font-size: 21px;
   }
+  
+  .listPhotosUsers{
+    grid-template-columns: 1fr;
+  }
+
 }
