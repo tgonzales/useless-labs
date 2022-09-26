@@ -23,6 +23,8 @@ body{
   color:#000;
 }
 
+
+
 .centerUseless{
   width: 100%;
   max-width: 1635px;
@@ -78,7 +80,7 @@ body{
 }
 
 .section.s1-home{
-  padding: 0;
+  padding: 50px;
 }
 
 .s1-home{
@@ -119,7 +121,7 @@ body{
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 150%;
   color:#000;
 }
@@ -130,6 +132,7 @@ body{
   justify-content: space-between;
   width: 100%;
   max-width: 100%;
+  padding: 50px;
 }
 
 .threeUselles{
@@ -170,7 +173,7 @@ body{
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   flex-wrap: wrap;
   /* gap: 10%; */
-  padding: 0;
+  padding: 0 100px;
 }
 
 .listPhotosUsers>li{
@@ -182,7 +185,7 @@ body{
 
 .listPhotosUsers>li>img{
   width: 100%;
-  max-width: 150px;
+  max-width: 100px;
   margin-bottom: 9px;
   margin-top: 50px;
 }
@@ -191,7 +194,7 @@ body{
   font-family: 'Recoleta';
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 150%;
   color:#000;
 }
@@ -200,9 +203,13 @@ body{
   font-family: 'Recoleta';
   font-style: normal;
   font-weight: 400;
-  font-size: 34px;
+  font-size: 22px;
   line-height: 150%;
   color:#000;
+}
+
+.fourUselles { 
+  padding: 0 50px;
 }
 
 .fourCenterUselles{
@@ -241,7 +248,7 @@ body{
 
 .fourProjectTitleUselles{
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -251,7 +258,7 @@ body{
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
-  color:#000;
+  color:rgb(81, 81, 81);
 }
 
 .fourProjectTitleUselles>h3{
@@ -276,7 +283,8 @@ body{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 31px;
+  gap: 25px;
+  padding: 0 50px;
 }
 
 .fiveCardUsellesList{
@@ -284,7 +292,7 @@ body{
   flex-wrap: wrap;
   gap: 20px; 
   width: 100%;  
-  max-width: 440px;
+  max-width: 30%;
   height: 372px;
   margin-bottom: 160px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 }
@@ -354,6 +362,7 @@ footer{
 @media(max-width:1399px){
   .listPhotosUsers{
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 25px;
   }
 }
 
@@ -377,6 +386,19 @@ footer{
     max-width: 100%;
   }
 
+  .section.s1-home, .twoUsellesCenter{ 
+    padding: 10px;
+  }
+
+  .threeTitleUselles>p { 
+    font-size: 22px;
+    padding: 0 10px;
+  }
+
+  .fiveCardUsellesList { 
+    margin-bottom: 50px;
+  }
+
   .uselessYear:before{
     left: auto;
     bottom: -5px;
@@ -386,6 +408,10 @@ footer{
   .lottie-w{
     width: 100%;
     max-width: 100%;
+  }
+
+  .fiveUselles { 
+    padding: 10px;
   }
 
   .max820-920-w.mob-marg-lr-20px,
@@ -412,7 +438,7 @@ footer{
   }
 
   .userUselles>span{
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .promo-p{
@@ -442,6 +468,26 @@ footer{
     display: none;
   }
 
+  .fourUselles { 
+    padding: 10px;
+  }
+
+  .fourProjectTitleUselles>h3 { 
+    font-weight: 300;
+  }
+
+  .fourProjectTitleUselles { 
+    flex-direction: column-reverse;
+  }
+
+  
+
+  .fourProjectTitleUselles>p { 
+    font-size: 18px;
+  }
+
+
+
   footer{
     flex-direction: column;
   }
@@ -455,6 +501,13 @@ footer{
     font-size: 41px;
   }
 
+
+  .footerData {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
   .footerData>span{
     line-height: 1;
   }
@@ -480,7 +533,7 @@ footer{
   }
 
   .fourProjectTitleUselles>p{
-    font-size: 21px;
+    font-size: 16px;
   }
 
   footer{
